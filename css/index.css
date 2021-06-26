@@ -1,0 +1,97 @@
+body{margin: 0px; padding: 0px; font-size: 14px;font-family: "微软雅黑","宋体","arial black";text-align: center;}
+
+
+/* 公共样式 */
+img{border: 0px;}
+a{text-decoration: none;color: #e6e7eb;}
+a:hover{color: #188eee;}
+
+/* 顶部导航 */
+#topnav{width: 100%;position: fixed;top: 0px ;background-color: #2e323e;z-index: 99;}
+#topnav a{color: #e6e7eb;}
+#topnav a:hover{color: #188eee;}
+
+/* 顶部内容 */
+.centerdiv{width: 1200px; margin: 0px auto; text-align: left;padding: 7px 0px;font-size: 14px;}
+#logo{height: 45px ;float: left;margin: 1px;}
+
+
+#navList{width: 800px;float: left;margin-left: 15px;}
+#navList ul{margin: 0px ; padding: 0px; font-size: 16px; font-family: "微软雅黑";}
+#navList li{list-style: none; float: left;margin-top: 10px;}
+#navList a{padding: 10px;}
+
+.reg{width: 40px; float: right;margin-top: 15px;}
+.login{width: 40px; float: right;margin-top: 15px;}
+
+/* 内容部分 */
+.container{width: 100%; float: left; }
+.bg1{background-color: #aaffff;margin-top: 75px;}
+.listCenterdiv{width: 1160px; background-color: #ffffff;margin: 20px auto 20px auto;padding: 20px;text-align: left;}
+.courseImgdiv{width: 440px; height: 240px; float: left; margin-right: 20px;}
+.cousrseTitle{width: 700px;float: left; font-size: 25px;}
+.cousrseAuthor{width: 700px; float: left;color: #adadad; margin: 10px 0;}
+.courseDesc{width: 700px ; float: left; color: #2E323E;}
+.coursePrice{width: 400px; float: left; font-size: 20px; color: #55aa00;text-align: right;margin-right: 15px;padding: 13px 0;}
+.studynow{width: 160px ; float: left;}
+.studynow a{display:  block;padding: 13px 0; background-color: #ff881e;font-size: 20px;color: #fff;text-align: center;border-radius: 2px;}
+.studynow a:hover{background-color: #FF991E}
+
+/* 课程目录和热门提醒 */
+.container1{width: 100%; float: left; background-color: #eee;padding: 5px 0;}
+
+.DetailCenterDiv{width: 1200px ; margin: 10px auto 20px auto; text-align:  left;}
+
+/* 左边布局 */
+.leftdiv{width: 920px; float: left; }
+.leftitem{width: 880px; float: left;padding: 20px;background-color: #fff;margin-bottom: 20px;}
+.shortDesc{width: 860px; float: left;padding: 10px 0px 10px 20px ;background-color: #e2f8e2;border-radius: 5px;}
+.desctitle{width: 860px;float: left;font-size: 18px; padding: 20px 0px;}
+.descitem{width: 860px; float: left;font-size: 16px; padding-bottom: 10px;}
+
+.catalogdiv{width: 880px; float: left; font-size: 18px;border-bottom: 1px solid #ddd;padding-bottom: 10px ;}
+.catalogitem{width: 880px ; float: left; font-size: 16px;padding-top: 10px;}
+
+
+/* 右边布局 */
+.rightdiv{width: 260px; float: left;  margin-left: 20px ;}
+.rigitem{width: 220px; float:  left; background-color: #fff;padding: 20px;margin-bottom: 20px;}
+.weixinimg{width: 180px; height: 180px;float: left;margin-left: 20px;display: inline;}
+.weixinimg img{width: 180px; height: 180px;}
+.weixintitle{width: 220px;float: left; text-align: center;font-size: 16px;padding: 5px 0px;color: #604444;}
+.weixindesc{width: 210px;float: left;font-size: 14px;color: #604444 ;padding-left: 10px;}
+
+.hottile{width: 220px ;float:  left;font-size: 18px; border-bottom: 1px solid #ddd;padding-bottom:20px ;}
+.courserimg{width: 220px;height: 130px; margin-top: 20px;float:  left;}
+.courserimg img{width: 220px; height: 130px;}
+
+.coursetit{width: 220px; float: left;margin-top: 5px;}
+.coursetit a{ color: #2E323E;}
+.coursetit a:hover{ color: #188eee;}
+
+/* 底部部分 */
+.footer-div{clear: both ;width: 100%;height: 300px;background-color: #1f2021;text-align: center;}
+.footer{width: 1200px;height:265px ;background-color: #1f2021;margin: 0px auto;text-align: left;padding-top: 35px;}
+
+.footer-item{width: 130px ; height: 150px; float:  left;}
+.footer-item-about{width: 130px;float: left;font-size: 18px;color: #fff;}
+
+.footer-item ul{margin: 0px ; padding: 0px;float: left; }
+.footer-item li{list-style: none;padding-top: 12px;font-size: 16px;}
+.footer-item a{color: #bfbfbf;}
+.footer-item a:hover{color: #188EEE;}
+
+.footer-partners{width: 460px;height: 125px;float: left;}
+.altertitle{width: 460px;}
+.footer-partners a{color: #bfbfbf;}
+.footer-partners a:hover{color: #188EEE;}
+.footer-partners ul{margin: 0px; padding: 0px;float: left;}
+.footer-partners li{list-style: none;padding-top: 12px; font-size: 16px ;float: left;padding-right: 30px;}
+.online{width: 180px;float: left;color: #bfbfbf;font-size: 16px;margin-top: 36px;}
+.footer-weixin{width: 134px; float: right;}
+.footer-weixin img{width: 134px;}
+
+.compane-declare{width: 1200px;float: left;color: #bfbfbf; font-size: 14px; border-bottom: 1px solid #303338 ;padding-bottom: 18px;}
+.compane-declare span{color: #FFFFFF;font-size: 16px;}
+.copyright-icp{width: 600px; float: left; padding-top: 12px; font-size: 14px ; color: #bfbfbf;}
+#kxweb{width: 170px; float:  right;margin-top: 15px;}
