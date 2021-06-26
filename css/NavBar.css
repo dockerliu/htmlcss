@@ -1,0 +1,21 @@
+body{font-size: 14px;margin: 0px; padding: 0px;text-align: center;}/*text-align: center; 文本居中，只对IE6有用*/
+
+#globallink{width: 950px;height: 33px;background-image: url(../img/bg.png);margin: 0 auto 0 auto;}
+#globallink ul{ list-style: none;padding: 0px; margin: 0px;}
+
+#globallink li{float: left;width: 70px;text-align: center;}
+#globallink a{display: block;padding: 8px 6px 10px 6px; margin: 0px;}
+#globallink a:link,#globallink a:visited{color:#FF00FF;text-decoration:none}
+#globallink a:hover{color:#00aaff;text-decoration: underline;}
+
+
+#container{width: 950px; margin: 0 auto 0 auto;text-align: left; background-color: #008000; height: 600px;}
+#logo{width: 950px;height: 50px; float: left; background-color: #00FFFF}
+#navlink{width: 950px;height: 40px; float: left;margin: 5px 0 10px 0;background-color: #aaffff}
+
+/* 主体中部 */
+#leftContent{width: 198px; height: 398px;float: left;border: 1px solid gainsboro;background-color: #aa00ff}
+#middleContent{width: 528px;height: 398px;border: 1px solid gold; float: left; background-color: #00FFFF;margin: 0 10px 0 10px;}
+#rightContent{width: 198px;height: 398px;border: 1px solid brown; float: left; background-color: #00aaff}
+
+#footer{width: 950px; height: 100px; background-color: #ffaa00;margin: 10px 0 0 0;clear: both;} /* clear: both; 清除float效果*/

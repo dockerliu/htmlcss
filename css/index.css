@@ -1,0 +1,12 @@
+input{border: 2px solid red; background-color: white;}
+
+/* class 自定义样式选择器  .+标签名 */
+.one{color: #FF0000; font-size: 18px;}
+
+/* ID选择器 #+标签ID */
+#linkAuthor{color: aqua;font-size: 20px; font-style: italic;}
+
+a{color: #008000;text-decoration: none;font-size: 12px;}
+a:hover{color: red;text-decoration: underline;}
+
+#otherdiv a{font-size: 20PX; color: #008000;}
